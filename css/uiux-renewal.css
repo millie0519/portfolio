@@ -1,0 +1,154 @@
+@charset "utf-8";
+
+
+#uiux-renewal{
+    padding-bottom: 100px;
+    background-image: url(../images/uiux/renewal/bg_kakao.png);
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#uiux-renewal>.container{
+    width: 1100px;
+    margin: 0 auto;
+}
+
+#uiux-renewal .intro{
+    margin-top: 50px;
+}
+#uiux-renewal .intro>.intro-txt{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 300px;
+}
+#uiux-renewal .intro>.intro-txt>.tit>h3{
+    font-size: 28px;
+}
+#uiux-renewal .intro>.intro-txt>.tit>p{
+    color: #999;
+    font-family: 'Teko', sans-serif;
+    font-size: 24px;
+}
+#uiux-renewal .intro>.intro-txt>.txt>p{
+    margin-bottom: 8px;
+    font-size: 18px;
+}
+
+#uiux-renewal .MOver{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+#uiux-renewal .MOver>.container{
+    margin-right: 30px;
+}
+#uiux-renewal .MOver>.container>h4{
+    font-size: 28px;
+    font-weight: 500;
+}
+#uiux-renewal .MOver>.container>p{
+    color: #999;
+    font-family: 'Teko', sans-serif;
+    font-size: 28px;
+    text-align: right;
+}
+
+
+/* 컨텐츠 */
+#uiux-renewal .content{
+    margin-top: 200px;
+}
+/* 공통 */
+#uiux-renewal .content>.box{
+    margin-bottom: 100px;
+}
+#uiux-renewal .content>.box>.top{
+    margin-bottom: 30px;
+    border-bottom: 1px solid #feda3b;
+    background-image: url(../images/uiux/renewal/bg_top.png);
+    background-position: 870px bottom;
+    background-repeat: no-repeat;
+}
+#uiux-renewal .content>.box>.top>h4{
+    width: 165px;
+    height: 40px;
+    margin-left: 105px;
+    font-size: 28px;
+    font-weight: 500;
+    border-bottom: 3px solid #feda3b;
+}
+#uiux-renewal .content>.box>.txt{
+    width: 800px;
+    margin: 0 auto;
+}
+#uiux-renewal .content>.box>.txt>h5{
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-weight: 500;
+}
+#uiux-renewal .content>.box>.txt>p{
+    margin-left: 10px;
+    margin-bottom: 30px;
+    font-size: 15px;
+    line-height: 1.4;
+}
+
+
+#uiux-renewal .UItest{}
+#uiux-renewal .UItest>.txt{}
+#uiux-renewal .UItest>.txt>.big{
+    width: 600px;
+    margin: 0 auto;
+}
+#uiux-renewal .UItest>.txt>.big>h5{
+    display: inline;
+    font-size: 28px;
+    font-weight: 500;
+    margin-right: 10px;
+}
+#uiux-renewal .UItest>.txt>.big>span{
+    color: #999;
+    font-family: 'Teko', sans-serif;
+    font-size: 24px;
+    letter-spacing: 1.2px;
+}
+#uiux-renewal .UItest>.txt>.big>p{
+    display: flex;
+    align-items: center;
+    height: 110px;
+    margin-bottom: 30px;
+    font-size: 16px;
+    line-height: 1.6;
+}
+#uiux-renewal .UItest>.txt>ul{
+    display: flex;
+}
+#uiux-renewal .UItest>.txt>ul>li{
+    width: 160px;
+    height: 120px;
+    margin-left: -1px;
+    padding: 18px 12px;
+    border: 1px solid #cdcdcd;
+    cursor: pointer;
+    transition: all 0.1s;
+}
+#uiux-renewal .UItest>.txt>ul>li:hover{
+    transform: scale(1.05);
+}
+#uiux-renewal .UItest>.txt>ul>li:nth-of-type(2n){
+    background-color: #fff4c5;
+}
+#uiux-renewal .UItest>.txt>ul>li:nth-of-type(2n+1){
+    background-color: #feda3b;
+}
+#uiux-renewal .UItest>.txt>ul>li>.tit{
+    display: block;
+    margin-bottom: 15px;
+    font-size: 22px;
+}
+#uiux-renewal .UItest>.txt>ul>li>p{
+    overflow: hidden;
+    height: 72px;
+    font-size: 10px;
+    text-shadow: 1px 1px 1px #fff;

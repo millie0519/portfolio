@@ -1,0 +1,142 @@
+@charset "utf-8";
+
+@import url(main.css);
+@import url(aboutme.css);
+@import url(uiux.css);
+@import url(uiux-renewal.css);
+@import url(uiux-concept.css);
+@import url(uiux-app.css);
+@import url(webpofol.css);
+@import url(graphics.css);
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hi+Melody&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap');
+
+*{font-family: 'Noto Sans KR';}
+
+/* 헤더 */
+header{
+    display: flex;
+    position: relative;
+    width: 100%;
+    min-width: 1100px;
+    height: 130px;
+}
+header>h1{
+    position: absolute;
+    left: 50%;
+    margin-left: -560px;
+    z-index: 1200;
+}
+header>nav{
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    margin-left: -75px;
+    width: 650px;
+    height: 26px;
+    z-index: 1000;
+}
+header>nav>ul{
+    display: flex;
+    justify-content: space-between;
+    width: 630px;
+}
+header>nav>ul>li{
+    position: relative;
+    width: 15%;
+    height: 26px;
+}
+header>nav>ul>li:nth-of-type(2){
+    width: 112px;
+}
+header>nav>ul>li>a{
+    display: block;
+    position: absolute;
+    font-size: 18px;
+    z-index: 200;
+}
+header .bg_lnb{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    height: 20px;
+    background-color: #f2e697;
+    z-index: 100;
+}
+
+
+
+header>nav>ul>li>ol{
+    display: none;
+    position: absolute;
+    top: 30px;
+    width: 100%;
+}
+header>nav>ul>li>ol>li{
+}
+header>nav>ul>li>ol>li>a{
+    display: block;
+    font-size: 14px;
+    line-height: 1.7;
+    text-align: center;
+}
+header>nav>ul>li>ol>li:hover>a{
+    text-decoration: underline;
+}
+
+
+header .mnu_bg{
+    display: none;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    max-width: 100%;
+    height: 200px;
+    background-color: rgba(255, 255, 255, 0.7);
+    z-index: 900;
+}
+
+
+/* section{
+    width: 1100px;
+    margin: 0px auto;
+    margin-top: 150px;
+} */
+
+
+/* 푸터 */
+footer{
+    width: 100%;
+    /* height: 200px; */
+    background-color:rgb(111, 116, 111);
+    border-top: 1px solid #ccc;
+}
+footer>.footer-container{
+    position: relative;
+    width: 1100px;
+    margin: 0 auto;
+    padding: 30px 0;
+    color: #fff;
+}
+footer .footer-profile{
+    margin-bottom: 20px;
+}
+footer .footer-profile>li{
+    font-size: 16px;
+}
+footer>div>p{}
+footer address{
+    font-size: 14px;
+}
+footer img{
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    width: 200px;
+    margin-top: -40px;
+}

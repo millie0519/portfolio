@@ -1,0 +1,187 @@
+@charset "utf-8";
+
+#main>.visual{
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 660px;
+    margin: 0 auto;
+} 
+
+#main>.visual>.visual-container{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+#main>.visual>.visual-container>li{
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#main>.visual>.visual-container>li:nth-child(1){
+    display: block;
+    background-image: url(../images/main/visual/temp01.jpg);
+    background-position: center;
+}
+#main>.visual>.visual-container>li:nth-child(2){
+    background-image: url(../images/main/visual/temp021.jpg);
+    background-position: center;
+}
+#main>.visual>.visual-container>li:nth-child(3){
+    background-image: url(../images/main/visual/temp03.jpg);
+    background-position: center;
+}
+#main>.visual>.visual-container>li:nth-child(4){
+    background-image: url(../images/main/visual/temp040.jpg);
+    background-position: center;
+}
+#main>.visual>.visual-container>li:nth-child(5){
+    background-image: url(../images/main/visual/temp05.jpg);
+    background-position: center;
+}
+
+
+
+
+/* 페이지네이션 */
+#main>.visual>.visual-pagination{
+    display: flex;
+    position: absolute;
+    left: 50%;
+    bottom: 80px;
+    width: 100px;
+    margin-left: -50px;
+}
+
+#main>.visual>.visual-pagination>li{
+    width: 20px;
+}
+
+#main>.visual>.visual-pagination>li>a{
+    display: block;
+    height: 20px;
+    transition:all 0.35s;
+}
+
+#main>.visual>.visual-pagination>li.on>a{
+    transform:rotate(30deg);
+}
+
+#main>.visual>.visual-pagination>li>a>span{
+    display: block;
+    width: 2px;
+    height: 20px;
+    margin: 0 auto;
+    text-indent: -9999px;
+    background-color: #fff;
+    transition:all 0.1s;
+}
+
+#main>.visual>.visual-pagination>li.on>a>span{
+    width: 3px;
+}
+
+
+/* 이전, 다음 */
+#main>.visual>.visual-navigation{
+    display: block;
+    position: absolute;
+    top: 50%;
+    width: 40px;
+    height: 88px;
+    margin-top: -44px;
+    text-indent: -9999px;
+    background-image: url(../images/main/visual/prev_next.png);
+    background-repeat: no-repeat;
+}
+
+#main>.visual>.visual-navigation.visual-prev{left: 15px;background-position: 0 -176px;}
+#main>.visual>.visual-navigation.visual-prev:hover{background-position: 0 -264px;}
+
+#main>.visual>.visual-navigation.visual-next{right: 15px;background-position: 0 0px;}
+#main>.visual>.visual-navigation.visual-next:hover{background-position: 0 -88px;}
+
+
+/* 자동재생 버튼 */
+#main>.visual>.visual-auto{
+    display: block;
+    position: absolute;
+    left: 50%;
+    bottom: 80px;
+    width: 20px;
+    height: 20px;
+    margin-left: 60px;
+    text-indent: -9999px;
+    background-image: url(../images/main/visual/mysite_mainbanr_sp_icons.png);
+    background-position: -62px -24px;
+}
+
+#main>.visual>.visual-auto.pause{
+    background-position: 0 -57px;
+}
+
+
+/* 공지보드 */
+#main>.visual .board{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 450px;
+    height: 300px;
+    margin: -150px 0 0 -225px;
+    text-align: center;
+    background-color: rgba(239,239,239,0.8);
+}
+
+#main>.visual .board>.bar{
+    display: block;
+    position: absolute;
+    right: 14px;
+    top: -25px;
+    width: 14px;
+    height: 56px;
+    background-color: #be1e2d;
+}
+
+#main>.visual .board>.tit{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    font-weight: 500;
+}
+#main>.visual .board>.txt{line-height: 1.5;}
+#main>.visual .board>.tit1{
+    position: relative;
+    left: 0;
+    margin-top: 60px;
+}
+
+#main>.visual .board>.tit2{
+    position: relative;
+    left: 0;
+    margin-top: 16px;
+}
+
+#main>.visual .board>.txt1{
+    position: relative;
+    left: 0;
+    margin: 35px 0 15px;
+    font-size: 17px;
+}
+
+#main>.visual .board>.txt2{
+    position: relative;
+    left: 0;
+    font-size: 17px;
+}
+
+#main>.visual .game>a>.board>.tit1{
+    margin-top: 30px;
+}
+

@@ -1,0 +1,505 @@
+@charset "utf-8";
+
+#uiux-app{
+    width: 1100px;
+    margin: 0 auto;
+}
+
+/* 인트로 */
+#uiux-app>.intro{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 532px;
+    background-color: #8dc6b6;
+    background-image: url(../images/uiux/app/bg_intro.png);
+}
+#uiux-app>.intro>.intro_txt{
+    color: #fff;
+}
+#uiux-app>.intro>.intro_txt>h2{
+    font-size: 48px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+#uiux-app>.intro>.intro_txt>p{
+    margin-bottom: 10px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* 공통 효과 */
+#uiux-app>article{
+    margin-bottom: 100px;
+}
+#uiux-app .top{
+    width: 1100px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #cdcdcd;
+}
+#uiux-app .top>h3{
+    display: inline-block;
+    /* width: 250px; */
+    margin-left: 105px;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 50px;
+    border-bottom: 3px solid #cdcdcd;
+}
+#uiux-app>article>.txt{
+    width: 800px;
+    margin: 0 auto;
+}
+#uiux-app>article>.txt>p{
+    font-size: 16px;
+}
+
+
+/* 컨셉, 아이디어 */
+
+#uiux-app>.concept>.txt>h4{
+    color: #8dc6b6;
+    font-family: 'Teko', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+}
+#uiux-app>.concept>.txt>p{
+    margin-bottom: 25px;
+}
+
+
+/* 페르소나, 스토리 */
+#uiux-app>.persona>.content{
+    width: 800px;
+    margin: 0 auto;
+    padding: 60px 0;
+    background-color: #ceeae2;
+    border-radius: 12px;
+}
+#uiux-app>.persona>.content>.profile{
+    display: flex;
+    flex-wrap: wrap ;
+}
+#uiux-app>.persona>.content>.profile>.lft{
+    width: 260px;
+    height: 370px;
+    background-image: url(../images/uiux/app/bg_profile.png);
+
+}
+#uiux-app>.persona>.content>.profile>.lft>.frame>img{
+    margin: 20px;
+}
+#uiux-app>.persona>.content>.profile>.lft>.name{
+    margin: 0 5px 0 20px;
+    font-size: 20px;
+}
+#uiux-app>.persona>.content>.profile>.lft>.name:before{
+    display: inline-block;
+    width: 23px;
+    height: 25px;
+    margin-right: 6px;
+    vertical-align: top;
+    background-image: url(../images/uiux/app/ico_my.png);
+    content: '';
+}
+#uiux-app>.persona>.content>.profile>.lft>.sub{
+    font-size: 14px;
+}
+#uiux-app>.persona>.content>.profile>.lft>p{
+    margin: 16px 0 0 20px;
+    font-size: 14px;
+}
+#uiux-app>.persona>.content>.profile>.rgt{
+    width: 500px;
+    padding: 0 20px;
+}
+#uiux-app>.persona>.content>.profile>.btm{
+    margin: 20px auto;
+}
+
+
+/* 페르소나, 스토리 - 제목, txt 공통 */
+#uiux-app>.persona h4{
+    margin-bottom: 8px;
+    font-size: 20px;
+    font-weight: 400;
+}
+#uiux-app>.persona h4:before{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin-right: 5px;
+    vertical-align: 3px;
+    background-image: url(../images/uiux/app/ico_point.png);
+    content: '';
+}
+#uiux-app>.persona p{
+    margin: 0 0 20px 20px;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+
+/* 사용자 스토리 */
+#uiux-app>.persona .story{
+    margin: 20px;
+    margin-bottom: 60px;
+}
+#uiux-app>.persona .story>p{text-indent: 10px;}
+
+/* 시나리오 */
+#uiux-app>.persona .scenario{
+    margin: 0 20px;
+}
+#uiux-app>.persona .scenario>.timeline{
+    position: relative;
+    height: 780px;
+    background-image: url(../images/uiux/app/bg_timeline.png);
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+    
+#uiux-app>.persona .scenario>.timeline>.scene{
+    display: flex;
+    justify-content: flex-end;
+}
+
+#uiux-app>.persona .scenario>.timeline>.no02,#uiux-app>.persona .scenario>.timeline>.no04{
+    flex-direction: row-reverse;
+}
+#uiux-app>.persona .scenario>.timeline>.no01{
+    padding-top: 42px;
+}
+#uiux-app>.persona .scenario>.timeline>.no01>.txt,
+#uiux-app>.persona .scenario>.timeline>.no03>.txt{
+    margin-left: 10px;
+    text-align: left;
+}
+#uiux-app>.persona .scenario>.timeline>.no02>.txt,
+#uiux-app>.persona .scenario>.timeline>.no04>.txt{
+    margin-right: 10px;
+    text-align: right;
+}
+
+#uiux-app>.persona .scenario>.timeline>.scene>.txt{
+    width: 180px;
+}
+#uiux-app>.persona .scenario>.timeline>.scene>.txt>h5{
+    color: #007473;
+    font-size: 14px;
+    font-weight: 500;
+}
+#uiux-app>.persona .scenario>.timeline>.scene>.txt>p{
+    font-size: 12px;
+    margin: 0;
+}
+
+#uiux-app>.persona .scenario>.timeline>.number{}
+#uiux-app>.persona .scenario>.timeline>.number>ul{}
+#uiux-app>.persona .scenario>.timeline>.number>ul>li{
+    position: absolute;
+    left: 50%;
+    width: 30px;
+    height: 30px;
+    margin-left: -15px;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    line-height: 30px;
+    background-color: rgba(0, 116, 115, 60%);
+    border-radius: 50%;
+}
+#uiux-app>.persona .scenario>.timeline>.number>ul>li:nth-of-type(1){top: 105px;}
+#uiux-app>.persona .scenario>.timeline>.number>ul>li:nth-of-type(2){top: 270px;}
+#uiux-app>.persona .scenario>.timeline>.number>ul>li:nth-of-type(3){top: 470px;}
+#uiux-app>.persona .scenario>.timeline>.number>ul>li:nth-of-type(4){top: 645px;}
+
+
+
+/* 콘텐츠 수급계획 */
+#uiux-app>.plan{}
+#uiux-app>.plan>.txt{
+    width: 1000px;
+    margin: 0 auto;
+}
+#uiux-app>.plan>.txt>table{
+}
+#uiux-app>.plan>.txt>table>thead>tr>th{
+    height: 60px;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 500;
+    text-shadow: 1px 1px 1px #999;
+    background-color: #8dc6b6;
+    border: 1px solid #cdcdcd;
+}
+#uiux-app>.plan>.txt>table>tbody>tr>th{
+    width: 130px;
+    height: 60px;
+    font-size: 17px;
+    font-weight: 500;
+    border: 1px solid #cdcdcd;
+}
+#uiux-app>.plan>.txt>table>tbody>tr>td{
+    height: 60px;
+    font-size: 14px;
+    text-align: center;
+    border: 1px solid #cdcdcd;
+}
+#uiux-app>.plan>.txt>table>tbody>tr>td:first-child{
+    width: 180px;
+}
+#uiux-app>.plan>.txt>table>tbody>tr>td:last-child{
+    width: 210px;
+}
+
+
+/* 서비스 컨셉 */
+#uiux-app>.service>.txt>ul{
+    display: flex;
+    justify-content: space-between;
+}
+#uiux-app>.service>.txt>ul>li{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 225px;
+    height: 225px;
+    background-color: #ceeae2;
+    border-radius: 50%;
+}
+#uiux-app>.service>.txt>ul>li>.txt1{
+    margin-bottom: 25px;
+    font-size: 28px;
+    text-align: center;
+}
+#uiux-app>.service>.txt>ul>li>.txt2{
+    color: #666;
+    font-size: 15px;
+    text-align: center;
+    line-height: 1.3;
+}
+
+#uiux-app>.service>.txt>ul>li.pick{
+    color: #fff;
+    background-color: #258a80;
+}
+#uiux-app>.service>.txt>ul>li.pick>.txt1{}
+#uiux-app>.service>.txt>ul>li.pick>.txt2{
+    color: #fff;
+}
+#uiux-app>.service>.txt>ul>li.pick>.txt2>b{
+    color: rgb(255, 255, 147);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+
+/* 프로토타입 */
+
+#uiux-app>.prototype{}
+#uiux-app>.prototype>.txt>h4{
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+#uiux-app>.prototype>.txt>h4>b{
+    display: block;
+    margin-bottom: 8px;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+#uiux-app>.prototype>.txt>.mnu{
+    display: flex;
+    margin-bottom: 60px;
+}
+#uiux-app>.prototype>.txt>.mnu>ol{
+    display: flex;
+}
+#uiux-app>.prototype>.txt>.mnu>ol>li{
+    margin-right: 20px;
+    background-color: #8dc6b6;
+    border-radius: 10px;
+}
+#uiux-app>.prototype>.txt>.mnu>ol>li:hover,
+#uiux-app>.prototype>.txt>.mnu>ol>li.on{
+    background-color: #3b8882;
+}
+#uiux-app>.prototype>.txt>.mnu>ol>li>a{
+    display: block;
+    padding: 8px 15px;
+    color: #fff;
+    font-size: 20px;
+    text-shadow: 1px 1px 1px #999;
+}
+#uiux-app>.prototype>.txt>.mnu>.checkbox{
+    display: flex;
+    align-items: center;
+}
+#uiux-app>.prototype>.txt>.mnu>.checkbox>input{
+    display: none;
+}
+#uiux-app>.prototype>.txt>.mnu>.checkbox>label{
+    color: #666;
+    height: 22px;
+    padding-left: 27px;
+    font-size: 16px;
+    background-image: url(../images/uiux/app/btn_check.png);
+    background-position: 0 -2px;
+    background-repeat: no-repeat;
+}
+#uiux-app>.prototype>.txt>.mnu>.checkbox>input:checked~label{
+    color: #222;
+    font-weight: 500;
+    text-shadow: 1px 1px 1px #ccc;
+    background-image: url(../images/uiux/app/btn_check.png);
+    background-position: 0 -24px;
+    background-repeat: no-repeat;
+}
+
+
+#uiux-app>.prototype>.txt>.content>.case{}
+#uiux-app>.prototype>.txt>.content>.case02{
+    display: none;
+}
+
+
+
+#uiux-app>.prototype>.txt>.content>.case>ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+#uiux-app>.prototype>.txt>.content>.case>ul>li{
+    position: relative;
+    width: 250px;
+    margin-right: 150px;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+#uiux-app>.prototype>.txt>.content>.case>ul>li>.frame{
+    position: relative;
+}
+#uiux-app>.prototype>.txt>.content>.case>ul>li>.frame>.num{
+    position: absolute;
+    bottom: 0;
+    color: rgba(141,198,182, 70%);
+    font-size: 80px;
+    font-family: 'Teko', sans-serif;
+    text-shadow: 3px 1px 2px rgba(214, 214, 214, 0.7);
+}
+#uiux-app>.prototype>.txt>.content>.case>ul>li>.frame>img{
+    margin-left: 30px;
+}
+#uiux-app>.prototype>.txt>.content>.case>ul>li>.exp{
+    display: none;
+}
+#uiux-app>.prototype>.txt>.content>.case>ul>li>.exp>ol{}
+#uiux-app>.prototype>.txt>.content>.case>ul>li>.exp>ol>li{
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+
+/* hover */
+#uiux-app>.prototype>.txt>.content>.case>ul>li>.frame>img{
+    transition: all 0.2s;
+}
+#uiux-app>.prototype>.txt>.content>.case>ul>li:hover>.frame>img{
+    transform: scale(1.1);
+}
+#uiux-app>.prototype .pop{
+    display: none;
+    position: absolute;
+    top: 18px;
+    left: 270px;
+    width: 300px;
+    height: 400px;
+    background-image: url(../images/uiux/app/bg_popup.png);
+    z-index: 100;
+}
+#uiux-app>.prototype .pop>ol{
+    padding: 0 20px;
+    margin-top: 180px;
+}
+#uiux-app>.prototype .pop>ol>li{
+    margin-bottom: 10px;
+    color: #222;
+    font-size: 20px;
+    font-family: 'Hi Melody';
+    font-weight: 600;
+    text-align: center;
+}
+#uiux-app>.prototype .pop>ol>li>b{
+    font-family: 'Hi Melody';
+    background-color: rgb(226, 236, 169);
+}
+#uiux-app>.prototype .pop>ol>li>strong{
+    font-family: 'Hi Melody';
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: rgb(247, 151, 151);
+}
+#uiux-app>.prototype>.txt>.content>.case>ul>li>.clse{
+    display: none;
+    position: absolute;
+    top: 90px;
+    right: -300px;
+    width: 40px;
+    height: 40px;
+    text-indent: -9999px;
+    background-image: url(../images/uiux/app/btn_clse.png);
+    z-index: 1000;
+}
+
+
+#uiux-app>.prototype .shadow{
+    display: none;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.5);
+    z-index: 200;
+}
+
+
+/* 정보구조설계 */
+#uiux-app>.architecture>.txt,
+#uiux-app>.wire>.txt{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+/* 와이어프레임 */
+#uiux-app>.wire>.txt>.description{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 10px 0 10px;
+}
+#uiux-app>.wire>.txt>.description>table{
+    width: 180px;
+    height: 170px;
+
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+#uiux-app>.wire>.txt>.description>table>thead>tr>th{
+    height: 20px;
+    text-shadow: 1px 1px 1px #f4f4f4;
+    background-color: #ceeae2;
+    border: 1px solid #cdcdcd;
+}
+#uiux-app>.wire>.txt>.description>table>tbody>tr>th{
+    width: 20px;
+    height: 20px;
+    border: 1px solid #cdcdcd;
+}
+#uiux-app>.wire>.txt>.description>table>tbody>tr>td{
+    padding: 3px;
+    border: 1px solid #cdcdcd;
+}

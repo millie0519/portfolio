@@ -1,0 +1,336 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+
+/* section - 배너 */
+
+section.aboutme-banr{
+    position: relative;
+    width: 1100px;
+    margin: 0 auto;
+}
+section.aboutme-banr>h2{
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    width: 550px;
+    margin-left: -275px;
+    color: #fff;
+    font-size: 50px;
+    text-align: center;
+    font-weight: 400;
+    z-index: 500;
+}
+
+section.aboutme-banr>ul{
+    display: flex;
+    justify-content: space-between;
+    height: 680px;
+    background-image: url(../images/aboutme/banr-bg.jpg);
+}
+section.aboutme-banr>ul>li{
+    position: relative;
+    width: 364px;
+    background-color: rgba(46, 46, 46, 0.8);
+    cursor: pointer;
+}
+section.aboutme-banr>ul>li>.txt-box{
+    display: none;
+    overflow: hidden;
+    position: relative;
+    height: 100px;
+    margin-top: 350px;
+}
+section.aboutme-banr>ul>li>.txt-box>p{
+    position: absolute;
+    width: 364px;
+    color: #fff;
+    text-align: center;
+}
+section.aboutme-banr>ul>li>.txt-box>p.txt1{
+    margin-bottom: 8px;
+    font-size: 20px;
+    top: 0;
+}
+section.aboutme-banr>ul>li>.txt-box>p.txt2{
+    font-size: 16px;
+    top: 40px;
+}
+section.aboutme-banr>ul>li>.mouse{
+    display: block;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    width: 50px;
+    height: 70px;
+    margin-left: -25px;
+    text-indent: -9999px;
+    background-image: url(../images/aboutme/icon_mouse.png);
+    content: '';
+    opacity: 0.7;
+}
+
+
+section.aboutme-content{
+    width: 1100px;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+
+/* 3행시 좌우명 */
+.aboutme-content>.intro>.iam01{
+    display: flex;
+    margin-bottom: 30px;
+}
+.aboutme-content>.intro>.iam01>.motto{
+    position: relative;
+    width: 40%;
+    height: 230px;
+}
+.aboutme-content>.intro>.iam01>.motto>.finger{
+    display: block;
+    position: absolute;
+    top: 50px;
+    left: 100px;
+    width: 30px;
+    height: 41px;
+    background-image: url(../images/aboutme/Finger.png);
+    opacity: 70%;
+}
+/* .aboutme-content>.intro>.iam01>.motto>.name:after{
+    display: block;
+    position: absolute;
+    top: 50px;
+    left: 60px;
+    width: 32px;
+    height: 32px;
+    background-image: url(../images/aboutme/icon_cursor.png);
+    content: '';
+} */
+.aboutme-content>.intro>.iam01>.motto>.name{
+    /* display: none; */
+    position: absolute;
+    margin-left: 91px;
+    opacity: 90%;
+}
+.aboutme-content>.intro>.iam01>.motto>.name>p{/*공통*/
+    position: absolute;
+    padding: 5px;
+    color: #ecdd8c;
+    font-size: 48px;
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: 700;
+    text-shadow: -3px 2px #7aafc6, -3px 2px #7aafc6, -3px 2px #7aafc6, -3px 2px #7aafc6;
+    border: 1px dashed #cdcdcd;
+    border-radius: 10px;
+    cursor: pointer;
+    z-index: 1000;
+}
+.aboutme-content>.intro>.iam01>.motto>.name>.txt1{
+    top: -8px;
+}
+/*커서*/
+/*.aboutme-content>.intro>.iam01>.motto>.name:after{
+    display: block;
+    position: absolute;
+    top: 50px;
+    left: 60px;
+    width: 32px;
+    height: 32px;
+    background-image: url(../images/aboutme/icon_cursor.png);
+    content: '';
+}*/
+.aboutme-content>.intro>.iam01>.motto>.name>.txt2{
+    top: 48px;
+    left: 100px;
+}
+.aboutme-content>.intro>.iam01>.motto>.name>.txt3{
+    top: 105px;
+    left: 165px;
+}
+.aboutme-content>.intro>.iam01>.motto>.poem{
+    /* display: none; */
+    position: absolute;
+    width: 100%;
+    /* margin-left: 60px; */
+}
+.aboutme-content>.intro>.iam01>.motto>.poem>p{
+    position: absolute;
+    padding: 5px;
+    color: #666;
+    font-size: 30px;
+    line-height: 50px;
+    font-family: 'Chakra Petch', sans-serif;
+}
+.aboutme-content>.intro>.iam01>.motto>.poem>p>b{
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 48px;
+}
+.aboutme-content>.intro>.iam01>.motto>.poem>.txt4{
+    display: none;
+    top: -3px;
+    left: 77px;
+}
+.aboutme-content>.intro>.iam01>.motto>.poem>.txt5{
+    display: none;
+    top: 53px;
+    left: 78px;
+}
+.aboutme-content>.intro>.iam01>.motto>.poem>.txt6{
+    display: none;
+    top: 110px;
+    left: 0px;
+}
+.aboutme-content>.intro>.iam01>.exp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    text-align: center;
+    line-height: 3em;
+    background-image: url(../images/aboutme/bg-one.png);
+    background-position: 500px 0;
+    background-repeat: no-repeat;
+}
+.aboutme-content>.intro>.iam01>.exp>p{
+    font-size: 20px;
+}
+
+
+/* 자기소개 */
+.aboutme-content>.intro>.iam02{
+    display: flex;
+    margin-bottom: 100px;
+    /* background-image: url(../images/aboutme/bg-one2.png); */
+    /* background-position: 500px 0; */
+    background-repeat: no-repeat;
+}
+.aboutme-content>.intro>.iam02>.txt-container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 650px;
+}
+.aboutme-content>.intro>.iam02>.txt-container>.box{
+    width: 50%;
+    height: 325px;
+    padding: 30px;
+    /* border: 1px solid forestgreen; */
+    box-sizing: border-box;
+}
+.aboutme-content>.intro>.iam02>.txt-container>.profile{}
+
+.aboutme-content>.intro>.iam02>.txt-container dl{
+}
+.aboutme-content>.intro>.iam02>.txt-container dl>dt{
+    margin-bottom: 30px;
+    color: #555;
+    font-size: 24px;
+    font-family: 'Chakra Petch', sans-serif;
+    border-bottom: 1px solid #cdcdcd;
+}
+.aboutme-content>.intro>.iam02>.txt-container dl>dt>b{
+    font-size: 28px;
+}
+.aboutme-content>.intro>.iam02>.txt-container dl>dd{
+    font-size: 16px;
+    line-height: 2;
+}
+.aboutme-content>.intro>.iam02>.txt-container>.interest{}
+.aboutme-content>.intro>.iam02>.txt-container>.interest>dl{
+    *zoom: 1;
+}
+.aboutme-content>.intro>.iam02>.txt-container>.interest>dl:after{
+    display: block;
+	clear: both;
+	content: '';
+}
+.aboutme-content>.intro>.iam02>.txt-container>.interest>dl>dd{
+    float: left;
+    width: 86px;
+}
+.aboutme-content>.intro>.iam02>.txt-container>.interest>dl>dd>img{
+    display: block;
+    width: 60px;
+    margin: 0 auto;
+    /* height: 86px; */
+
+}
+.aboutme-content>.intro>.iam02>.txt-container>.interest>dl>dd>.txt{
+    /* display: block; */
+    display: none;
+    font-size: 12px;
+    text-align: center;
+}
+
+.aboutme-content>.intro>.iam02>.txt-container>.mbti{
+    height: 500px;
+}
+.aboutme-content>.intro>.iam02>.txt-container>.skill>dl{
+}
+.aboutme-content>.intro>.iam02>.txt-container>.skill>dl>dd{
+    margin-bottom: 20px;
+    text-indent: -9999px;
+}
+.aboutme-content>.intro>.iam02>.txt-container>.skill>dl>dd.html{
+    width: 110px;
+    height: 72px;
+    background-image: url(../images/aboutme/icon_html.png);
+}
+.aboutme-content>.intro>.iam02>.txt-container>.skill>dl>dd.jquery{
+    width: 154px;
+    height: 35px;
+    background-image: url(../images/aboutme/icon_jQuery.png);
+}
+.aboutme-content>.intro>.iam02>.txt-container>.skill>.line{
+    display: flex;
+}
+.aboutme-content>.intro>.iam02>.txt-container>.skill>.line>p{
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    text-indent: -9999px;
+    background-size: contain;
+}
+
+
+
+.aboutme-content>.intro>.iam02>.txt-container>.skill>.line2>p.visual{background-image: url(../images/aboutme/icon_visual.png);}
+.aboutme-content>.intro>.iam02>.txt-container>.skill>.line2>p.brackets{background-image: url(../images/aboutme/icon_brackets.png);}
+.aboutme-content>.intro>.iam02>.txt-container>.skill>.line2>p.photoshop{background-image: url(../images/aboutme/icon_photoshop.png);}
+.aboutme-content>.intro>.iam02>.txt-container>.skill>.line3>p.word{background-image: url(../images/aboutme/icon_office01.png);}
+.aboutme-content>.intro>.iam02>.txt-container>.skill>.line3>p.excel{background-image: url(../images/aboutme/icon_office02.png);}
+.aboutme-content>.intro>.iam02>.txt-container>.skill>.line3>p.pp{background-image: url(../images/aboutme/icon_office03.png);}
+
+
+
+.aboutme-content>.intro>.iam02>.photo-container{
+    width: 450px;
+    margin-top: 150px;
+    /* background-color:darkkhaki; */
+}
+
+
+/* section - 하고싶은 말 */
+.aboutme-content>.speach{
+    height: 600px;
+    text-align: center;
+    background-image: url(../images/aboutme/bg-one3.png);
+    background-position: 0 -40px;
+    background-repeat: no-repeat;
+}
+.aboutme-content>.speach>h3{
+    margin-bottom: 40px;
+    font-size: 24px;
+}
+.aboutme-content>.speach>p{
+    margin-bottom: 15px;
+    font-size: 16px;
+    line-height: 2em;
+}
+.aboutme-content>.speach>p.last{
+    margin-top: 100px;
+    font-size: 20px;
+}
